@@ -28,6 +28,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniPOS">
+
+        <activity
+            android:name=".utils.CaptureActivityPortrait"
+            android:stateNotNeeded="false"
+            android:theme="@style/zxing_CaptureTheme"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true"
