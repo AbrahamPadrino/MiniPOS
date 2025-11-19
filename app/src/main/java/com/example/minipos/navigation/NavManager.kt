@@ -7,6 +7,10 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.example.minipos.viewmodels.InicioViewModel
 import com.example.minipos.viewmodels.MenuViewModel
+import com.example.minipos.viewmodels.ProductoViewModel
+import com.example.minipos.viewmodels.ProveedorViewModel
+import com.example.minipos.viewmodels.ReporteViewModel
+import com.example.minipos.viewmodels.VentaViewModel
 
 @SuppressLint("ViewModelConstructorInComposable")
 @Composable
