@@ -1,5 +1,6 @@
 package com.example.minipos.views
 
+import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.width
 import androidx.compose.material.icons.Icons
@@ -14,6 +15,7 @@ import androidx.compose.material3.IconButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
@@ -93,4 +95,27 @@ fun ProveedorView(
         )
     }
 
+}
+
+
+
+@Composable
+fun ProveedoresScreen(
+    paddingValues: PaddingValues,
+    openDialog: MutableState<Boolean>,
+    proveedorAddUpdate: MutableState<String>,
+    proveedor: MutableState<Proveedor>,
+    viewModel: ProveedorViewModel
+) {
+    TODO("Not yet implemented")
+}
+
+@Composable
+fun DialogAddUpdateProveedor(
+    openDialog: MutableState<Boolean>,
+    proveedorAddUpdate: MutableState<String>,
+    viewModel: ProveedorViewModel,
+    proveedor: MutableState<Proveedor>
+) {
+    TODO("Not yet implemented")
 }
