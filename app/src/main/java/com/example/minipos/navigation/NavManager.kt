@@ -15,7 +15,9 @@ import com.example.minipos.views.InicioView
 import com.example.minipos.views.MenuView
 import com.example.minipos.views.ProductoView
 import com.example.minipos.views.ProveedorView
+import com.example.minipos.views.ReporteView
 import com.example.minipos.views.SplashView
+import com.example.minipos.views.VentaView
 
 @SuppressLint("ViewModelConstructorInComposable")
 @Composable
